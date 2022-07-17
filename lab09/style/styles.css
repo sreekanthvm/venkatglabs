@@ -1,0 +1,27 @@
+caption{
+    caption-side: top;
+    }
+th:nth-child(3), th:nth-child(4), th:nth-child(6), th:nth-child(7){
+    text-align: center;
+}
+th:nth-child(5){
+    text-align: right;}
+
+td:nth-child(3),  td:nth-child(4), td:nth-child(6), td:nth-child(7){
+    text-align: center;
+}
+td:nth-child(5){
+    text-align: right;}
+
+.table > tbody >tr >td{
+    vertical-align: middle;
+}
+
+.btn-group > .btn:last-child:not(:first-child){
+    margin-bottom: 0em;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:  5px;
+}
+footer p {
+    text-align: center;
+}
